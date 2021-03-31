@@ -1,5 +1,7 @@
+const date = require('../../date');
+
 test('Title of the page', async () => {
-    const title = await page.title();
-    expect(title).toBe('todo list');
+    const day = date.getDay();
+    expect(day).toBe('Wednesday');
 
   });
