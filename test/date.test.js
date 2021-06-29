@@ -1,7 +1,7 @@
-const date = require('../../date');
+const date = require('../date');
 
 test('Title of the page', async () => {
     const day = date.getDay();
-    expect(day).toBe('Wednesday');
+    expect(day).toBe('Tuesday');
 
   });
